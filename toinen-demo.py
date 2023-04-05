@@ -1,2 +1,2 @@
 print("Toinen tulostus")
-luku = input("Anna luku: ")
+luku = input("Anna positiivinen kokonaisluku: ")
