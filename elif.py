@@ -1,4 +1,6 @@
 ika = 140
+ika = int(input("Anna ikäsi: "))
+
 
 if ika < 6 and ika > 0:
     print("Eskarilainen")
