@@ -1,10 +1,11 @@
-i = 1
-kantaluku = 2
+i = 0
 
 while True:
-    print(i*kantaluku)
     i=i+1
-    if i > 500:
+    if i %2 == 0:
+        continue
+    print(i)
+    if i > 10:
         break
 print("Ohjelman suoritus jatkuu edelleen...")
 

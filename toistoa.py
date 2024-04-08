@@ -1,13 +1,8 @@
+rahaa = 100
+kauppaOnAuki = True
 
-laskuri = 0
-
-while laskuri < 10:
-    print(laskuri)
-    laskuri = laskuri+1
-
-
-while True:
-    print(laskuri)
-    laskuri = laskuri+1
-    if laskuri == 10:
-        break
+while rahaa > 0 and kauppaOnAuki == True:
+    print("Ostetaan levy.")
+    rahaa = rahaa-20
+    kauppaOnAuki = False
+print("Rahat loppuivat tai kauppa meni kiinni!")

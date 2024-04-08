@@ -1,26 +1,12 @@
-fruits = ["apple", "banana", "cherry", "mandarin", "coconut", "pineapple"]
-numerot = [0, 12, 23, 23, 43, 324, 563, 234]
+fruits = ["apple", "banana", "cherry"]
 
-pituus = len(fruits)
-print(pituus)
+for x in "banana":
+    print(x)
 
-for a in fruits:
-    print(a)
-
-
-i = 0
-while True:
+i=0
+while i < 2:
     print(fruits[i])
-    i += 1
-    if (i == pituus-1):
-        break
+    i=i+1
 
-i = 0
-while i < pituus:
-    print(fruits[i])
-    i += 1
-
-j = 0
-while j < 7:
-    print(numerot[j])
-    j += 1
+for x in fruits:
+    print(x)
